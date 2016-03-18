@@ -1,0 +1,62 @@
+title: ELA Conf
+url: http://elaconf.com
+baseurl: /2015
+date: "November 20th &amp; 21st"
+building: Huntsman Hall, Wharton
+address: "3730 Walnut St, Philadelphia, PA"
+location: "Philadelphia, Pennsylvania"
+mission: "We are a not-for-profit event with a goal to create a safe, supportive, inspiring and comfortable <em>community</em> for women to gain the confidence needed to become leaders, open source contributors, speakers, and teachers in the world of tech."
+
+sass:
+  style: :compressed
+  
+markdown: kramdown
+kramdown:
+  auto_ids:       true
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+
+nvite: a89f
+twitter: elaconf
+email: hello@elaconf.com
+
+permalink: /:categories/:title/
+
+exclude:
+- node_modules
+- package.json
+- README.md
+
+gems:
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
+- jekyll-feed
+
+author: 
+  name: ELA Conf
+  email: hello@elaconf.com
+  uri: http://elaconf.com
+
+defaults:
+  -
+    scope:
+      path: "speakers"
+      type: "posts"
+    values:
+      layout: "speaker"
+      category: "speakers"
+  -
+    scope:
+      path: "agenda"
+      type: "posts"
+    values:
+      layout: "agenda"
+      category: "agenda"
+  -
+    scope:
+      path: "organizers"
+      type: "posts"
+    values:
+      layout: "speaker"
+      category: "organizers"

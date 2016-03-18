@@ -1,0 +1,15 @@
+---
+layout: page-wide
+title: Speakers
+---
+
+<div class="speakers">
+  {% assign speakers = (site.posts | where: "category", "speakers" ) %}
+  {% for speaker in speakers reversed %}{% if speaker.image %}
+  <a href="{{site.baseurl}}{{speaker.url}}" class="speaker">
+    <div class="speaker-img" style="background-image:url({{site.baseurl}}/images/speakers/{{speaker.image}})"></div>
+    {% if speaker.topic %}<div class="speaker-topic">{{speaker.topic}}</div>{% endif %}
+    <div class="speaker-name">{{speaker.title}}</div>
+  </a>
+  {% endif %}{% endfor %}
+</div>

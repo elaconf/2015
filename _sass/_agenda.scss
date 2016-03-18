@@ -1,0 +1,105 @@
+.page-agenda {
+  
+  table {
+    max-width: 100%;
+  }
+  
+  .main h1, 
+  .main h2 {
+    text-align: center;
+  }
+  
+}
+
+.agenda-table {
+  
+  border: 0;
+  
+  th {
+    border-bottom: .2em solid $cyan;
+  }
+  
+  tr:nth-child(even) td,
+  .row-breakout td {
+    background: rgba($white, .4);
+  }
+  
+  td {
+    position: relative;
+    vertical-align: text-top;
+    
+    @include breakpoint(small) {
+      padding: .25em 1em;
+    }
+    
+  }
+  
+}
+
+.agenda-speaker-link {
+  display: block;
+  margin-bottom: .5em;
+  min-width: 9em;
+  padding-left: 1.5em;
+  position: relative;
+}
+
+.agenda-speaker {
+  background-size: cover;
+  border: 1px solid $text-color;
+  display: inline-block;
+  height: 25px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+  width: 25px;
+  
+  .agenda-speaker-link:nth-child(odd) & {
+    border-radius: 100%;
+  }
+}
+
+.agenda-title {
+  display: block;
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+
+@include breakpoint(medium) {
+  .agenda-time {
+    border-right: .2em solid $text-color;
+    position: relative;
+    text-align: right;    
+    //min-width: 6.15em;
+    
+    &:not(th):before {
+      border: .15em solid $salmon;
+      border-radius: .7em;
+      content: '';
+      height: .7em;
+      position: absolute;
+      right: -.6em;
+      top: 1em;
+      width: .7em;
+    }
+    
+  }
+  
+}
+
+.allow-bullets ul {
+  list-style: disc;
+}
+
+.agenda-room {
+  color: $salmon;
+  margin-bottom: 1em;
+
+  @include breakpoint(medium) {
+    font-size: .75em;
+    left: -5.6em;
+    position: absolute;
+    text-align: right;
+  }
+  
+}

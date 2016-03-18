@@ -1,0 +1,45 @@
+.sponsor-image {
+  border: .4em solid $light;
+  display: block;
+  margin: 2em auto;
+
+  @include breakpoint(medium) {
+    display: inline-block;
+    height: 150px;
+    margin: 0;
+  }
+  
+}
+
+.sponsor-nowsecure,
+.sponsor-wharton,
+.sponsor-devbootcamp,
+.sponsor-mapbox,
+.sponsor-communicatehealth,
+.sponsor-happy-cog,
+.sponsor-digitas-health,
+.sponsor-sticker-mule,
+.sponsor-istrategylabs,
+.sponsor-django-foundation {
+  background-color: $white;
+  
+}
+
+.sponsor-mapbox,
+.sponsor-happy-cog,
+.sponsor-sticker-mule,
+.sponsor-istrategylabs {
+  padding: 5px;
+}
+
+.sponsor-nowsecure,
+.sponsor-wharton,
+.sponsor-communicatehealth,
+.sponsor-django-foundation {
+  padding: 30px;
+}
+
+.sponsor-devbootcamp,
+.sponsor-digitas-health {
+  padding: 40px;
+}
