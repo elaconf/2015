@@ -9,7 +9,7 @@ mission: "We are a not-for-profit event with a goal to create a safe, supportive
 
 sass:
   style: :compressed
-  
+
 markdown: kramdown
 kramdown:
   auto_ids:       true
@@ -27,13 +27,13 @@ exclude:
 - package.json
 - README.md
 
-gems:
+plugins:
 - jemoji
 - jekyll-redirect-from
 - jekyll-sitemap
 - jekyll-feed
 
-author: 
+author:
   name: ELA Conf
   email: hello@elaconf.com
   uri: http://elaconf.com
