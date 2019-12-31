@@ -26,7 +26,7 @@ To sponsor, please email [hello@elaconf.com](mailto:hello@elaconf.com). You may 
 * THREE (3) mentions on the [@elaconf](https://www.twitter.com/{{site.twitter}}) Twitter account during the lead up to the conference
 * Company name included on included on slideshow
 * Up to FOUR (4) job listings on conference slideshow and included in post-event email blast
-* Logo/link on [elaconf.com]({{site.url}})
+* Logo/link on [https://elaconf.github.io/]({{site.url}})
 * Verbal recognition during the conference announcements
 
 ### Ecosystem Supporter ($2,500)
@@ -82,7 +82,7 @@ To sponsor, please email [hello@elaconf.com](mailto:hello@elaconf.com). You may 
 * Company representatives at breakfast
 * THREE (3) mentions on the [@elaconf](https://www.twitter.com/{{site.twitter}}) Twitter account during the lead up to the conference
 * Company name included on included on slideshow
-* Logo/link on [elaconf.com]({{site.url}})
+* Logo/link on [https://elaconf.github.io/]({{site.url}})
 * Verbal recognition during the conference announcements
 
 ### Lunch Sponsor ($2500)
@@ -90,7 +90,7 @@ To sponsor, please email [hello@elaconf.com](mailto:hello@elaconf.com). You may 
 * Company representatives at lunch
 * FIVE (5) mentions on the [@elaconf](https://www.twitter.com/{{site.twitter}}) Twitter account during the lead up to the conference
 * Company name included on included on slideshow
-* Logo/link on [elaconf.com]({{site.url}})
+* Logo/link on [https://elaconf.github.io/]({{site.url}})
 * Verbal recognition during the conference announcements
 
 ---
@@ -99,8 +99,8 @@ Have another idea for sponsorships, such as some sort of in-kind exchange? We’
 
 ### Notes on Sponsorship Benefits
 
-* Tickets as part of sponsorship must identify as a woman in a way that is significant to them. 
+* Tickets as part of sponsorship must identify as a woman in a way that is significant to them.
 * The slideshow will be shown at the beginning and end of day as well as during breakfast and lunch.
-* Social media mentions will take place before, during, and up to 3 months after the conference. 
+* Social media mentions will take place before, during, and up to 3 months after the conference.
 
 *This sponsorship one-pager has been forked from Geekadelphia’s Philly Geek Awards one-pager, so thank you!*

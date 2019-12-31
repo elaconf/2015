@@ -1,5 +1,5 @@
 title: ELA Conf
-url: http://elaconf.com
+url: https://elaconf.github.io
 baseurl: /2015
 date: "November 20th &amp; 21st"
 building: Huntsman Hall, Wharton
@@ -36,7 +36,7 @@ plugins:
 author:
   name: ELA Conf
   email: hello@elaconf.com
-  uri: http://elaconf.com
+  uri: https://elaconf.github.io
 
 defaults:
   -
