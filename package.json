@@ -1,7 +1,7 @@
 {
   "name": "ela-conf",
   "version": "0.0.0",
-  "description": "",
+  "description": "This is our archived 2015 site. Check out https://elaconf.github.io/ for the latest updates.",
   "scripts": {
     "test": "tape test/*.js | tap-spec"
   },
@@ -9,8 +9,23 @@
     "scsslint": "0.0.3"
   },
   "devDependencies": {
-    "js-yaml": "^2.1.3",
+    "js-yaml": "^3.13.1",
     "tap-spec": "~4.1.1",
     "tape": "^4.8.0"
-  }
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elaconf/2015.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elaconf/2015/issues"
+  },
+  "homepage": "https://github.com/elaconf/2015#readme"
 }
